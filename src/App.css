@@ -1,0 +1,52 @@
+/* src/App.css */
+.date-time-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.dish-category {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.dish-category button {
+  padding: 10px;
+}
+
+.dish-category .active {
+  background-color: orange;
+}
+
+.dish-carousel {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+}
+
+.dish-item {
+  min-width: 100px;
+  text-align: center;
+}
+
+.recommended-dishes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommended-dish-item {
+  display: flex;
+  gap: 10px;
+}
+
+.recommended-dish-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.recommended-dish-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
